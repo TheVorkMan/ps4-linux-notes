@@ -6,8 +6,8 @@ on:
       - v4
   workflow_run:
     workflows: ["Update content submodule"]
-    types:
-      - completed
+      types:
+         - completed
  
 permissions:
   contents: read
