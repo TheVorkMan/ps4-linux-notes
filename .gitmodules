@@ -1,0 +1,3 @@
+[submodule "obsidian-ps4-linux-notes"]
+	path = obsidian-ps4-linux-notes
+	url = https://github.com/TheVorkMan/obsidian-ps4-linux-notes.git
