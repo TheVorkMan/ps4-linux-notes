@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - v4
+  workflow_run:
+    workflows: ["Update content submodule"]
+    types:
+      - completed
  
 permissions:
   contents: read
